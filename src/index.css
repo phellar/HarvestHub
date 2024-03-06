@@ -54,6 +54,58 @@ font-style: italic;
 line-height: normal;
 }
 
+.mobile-menu{
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  background: #00A205;
+  padding: 8px;
+  border-radius: 50px;
+  display: none;
+    cursor: pointer;
+}
+
+.menu-icon{
+  width: 25px;
+  height: 3px;
+  background: white;
+  margin-top: 4px;
+
+  
+}
+.menu-icon:last-child{
+  width: 15px;
+}
+
+
+.menu-item{
+  padding: 40px;
+  height: 100%;
+  width: 50vw;
+  background-color: white;
+  left: 0;
+  top: 0;
+  position: absolute;
+  animation: 1s ease-in-out forward;
+  display: none;
+
+}
+
+.menu-item ul li a{
+  color: #333;
+ 
+
+}
+.menu-item ul li{
+  color: #333;
+  margin-top: 40px;
+  
+}
+.menu-logo h1 a{
+  color: #333;
+}
+
+
 
 
 .hero-section{
@@ -395,6 +447,131 @@ border-radius: 20px
   line-height: 25px;
   width: 320px;
   }
+
+  .nav-cta{
+    display: none;
+  }
+
+  .mobile-menu{
+    display: block;
+  }
+
+  .menu-item{
+    display: block;
+    width: 70%;
+  }
+
   
+.story{
+  display: flex;
+  flex-direction: column;
+}
+
+.story p{
+  margin-top: 20px;
+  width: 450px;
+  font-size: 16px;
+}
+
+.card-group{
+  display: flex;
+  flex-direction: column;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+}
+.card-group-1{
+  display: flex;
+  flex-direction: column;
+  padding-top: 0px;
+}
+
+.card-1{
+  margin-top: 40px;
+}
  
+.testimony{
+  flex-direction: column;
+
+}
+
+.testimony-content{
+  margin-bottom: 30px;
+}
+.testimony-content p{
+  width: 400px;
+}
+
+.blog img{
+  width: 350px;
+  height: 250px;
+}
+
+.footer h2{
+  font-size: 80px;
+}
+}
+
+@media screen and (max-width: 450px) {
+ 
+  .story p{
+    margin-top: 20px;
+    width: 350px;
+    font-size: 16px;
+  }
+
+  .why-choose-us{
+    padding-top: 40px;
+  }
+
+  small{
+    width: 350px;
+  }
+
+  .testimony-content p{
+    width: 350px;
+  }
+
+  .footer h2{
+    font-size: 65px;
+  }
+}
+
+
+
+@media screen and (max-width: 360px) {
+ 
+  .story p{
+    margin-top: 20px;
+    width: 350px;
+    font-size: 16px;
+  }
+
+  .why-choose-us{
+    padding-top: 40px;
+  }
+
+  small{
+    width: 320px;
+  }
+
+  .testimony-content p{
+    width: 330px;
+  }
+
+  .footer h2{
+    font-size: 60px;
+  }
+
+  .blog img{
+    width: 320px;
+    height: 200px;
+  }
+
+  .featured-service img{
+    width: 320px;
+  }
 }

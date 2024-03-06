@@ -5,7 +5,7 @@ const OurStory = () => {
     <section className='our-story'>
         <div className="container">
             <div className="story">
-                <h3>Our <span className='highlight'>Story</span></h3>
+                <h2>Our <span className='highlight'>Story</span></h2>
                 <p>HarvestHub was born out of a passion for sustainable agriculture and a deep 
                     appreciation for the traditional practices that have sustained communities for generations.
                     We recognized the need for a platform that seamlessly integrates time-tested farming wisdom

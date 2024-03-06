@@ -12,10 +12,19 @@ import Cta from './Components/Cta'
 
 function App() {
 
+  const [isToggle, setIsToggle] = useState(false)
+
+  const toggleNav = ()=>{
+
+    setIsToggle(!isToggle)
+  }
+
+    
+  
 
   return (
     <>
-      <Hero/>
+      <Hero isToggle={isToggle} setIsToggle={setIsToggle} toggleNav={toggleNav}        />
       <OurStory/>
       <WhyChooseUs/>
       <FeaturedService/>

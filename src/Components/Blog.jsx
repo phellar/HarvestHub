@@ -6,6 +6,7 @@ const Blog = () => {
   return (
     <section className='blog'>
         <div className="container">
+            <h2> Blog  posts by <span className='highlight'>HarvestHub</span></h2>
             <div className="card-group">
                 <div className='card-1'>
                                         <img src={Blog1} alt="mentor svg"  />

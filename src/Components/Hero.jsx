@@ -1,11 +1,16 @@
 import React from 'react'
 import Header from './Header'
+import { useState } from 'react'
 
-const Hero = () => {
+const Hero = ({isToggle,setIsToggle,toggleNav}) => {
   return (
     <section className='hero-section'>
         <div className="overlay">
-            <Header/>
+            <Header 
+                isToggle={isToggle}
+                setIsToggle={setIsToggle}
+                 toggleNav={toggleNav} 
+            />
                 <div className="container">
                     <div className="content-box">
                         <h1>Unlock the Future of Farming<br/> with <span className='highlight'> HarvestHub</span></h1>
